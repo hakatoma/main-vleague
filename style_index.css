@@ -1,0 +1,166 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.country {
+    width: 100%;
+    color: white;
+    position: relative;
+    padding: 10px;
+    height: 75px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../img/banner.jpg);
+    background-position: left -20% top -100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.country li {
+    display: inline-block;
+    font-size: larger;
+}
+
+.country li form {
+    opacity: 0.7;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: transparent;
+}
+
+.country li button {
+    opacity: 0.5;
+    color: aqua;
+    background-color: black;
+    border-color: aqua;
+    border-width: 1px;
+    padding: 10px 25px;
+}
+
+.country li button:hover {
+    opacity: 1;
+    color: black;
+    background-color: aqua;
+    border-color: aqua;
+    border-width: 1px;
+    padding: 10px 25px;
+}
+
+.club ul {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.club li{
+    display: inline-block;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(213, 215, 215);
+    max-width: 1800px;
+    margin: auto;
+    text-align: center;
+}
+
+.club li a {
+    opacity: 0.8;
+    padding: 5px;
+    margin: 5px;
+}
+
+.club li:hover a {
+    opacity: 1;
+}
+
+.menu .menu_top table {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border-spacing: 0;
+}
+
+.menu .menu_top td {
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu .menu_top a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu .menu_top td:hover a {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(213, 215, 215);
+}
+
+.menu .menu_top td[title="Logo"]:hover a {
+    opacity: 0.9;
+    border: none;
+}
+
+.menu tr.menu_bottom {
+    background-color: black;
+}
+
+.menu .menu_bottom td {
+    color: white;
+}
+
+.menu .menu_bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu .menu_bottom td#league_1:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.menu .menu_bottom td#league_2:hover {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.menu .menu_bottom td#league_3:hover {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.menu .menu_bottom td.menu_e:hover a {
+    color: orange;
+}
+
+div.sponsor {
+    background-color: rgb(161, 156, 156);
+}
+
+div.footer {
+    background-color: rgb(63, 63, 63);
+}
+
+div.footer ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-left : 1px solid #f1f1f1;
+}
+
+div.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+div.footer p {
+    float: right;
+}
